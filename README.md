@@ -1,6 +1,16 @@
 # WhopPayments
 
-The WhopPayments SDK provides a simple way to integrate Whop's payouts functionality into your iOS application.
+The `WhopPayments SDK` provides a simple way to integrate Whop's payouts functionality into your iOS application.
+
+## Install
+
+Add `WhopPayments` to your Swift Package Manager dependencies and pin it to the latest release.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/whopio/whopsdk-payments-swift.git", exact: "0.0.4")
+]
+```
 
 ## Integration Example
 
@@ -9,8 +19,15 @@ import SwiftUI
 import WhopPayments
 
 class MyTokenProvider: WhopTokenProvider {
+    /// return an access token fetched from your
+    /// backend.
+    ///
+    /// called when `WhopPayoutsView` appears and
+    /// before expiration (within 60 seconds).
+    ///
+    /// the SDK handles caching and retries with
+    /// exponential backoff on failure.
     func getToken() async -> WhopTokenResponse {
-        // Fetch your access token from your backend
         let token = await fetchAccessToken()
         return WhopTokenResponse(accessToken: token)
     }
