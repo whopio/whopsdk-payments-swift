@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.0.5] - 2025-11-12
+
+### Changed
+- updated SDK authentication
+
 ## [0.0.4] - 2025-11-06
 
 ### Added
@@ -25,6 +30,7 @@ _Release yanked due to github error_
 
 _Initial release._
 
+[0.0.5]: https://github.com/whopio/whopsdk-payments-swift/releases/tag/0.0.5
 [0.0.4]: https://github.com/whopio/whopsdk-payments-swift/releases/tag/0.0.4
 [0.0.3]: https://github.com/whopio/whopsdk-payments-swift/releases/tag/0.0.3
 [0.0.1]: https://github.com/whopio/whopsdk-payments-swift/releases/tag/0.0.1

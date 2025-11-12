@@ -34,7 +34,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Framework",
-            url: "https://github.com/whopio/whopsdk-payments-swift/releases/download/0.0.4/WhopPayments.xcframework.zip",
-            checksum: "47dcd9bd0e456587daa01dacc3f475dbb194a7497034ed0526167f1c924a4095"
+            url: "https://github.com/whopio/whopsdk-payments-swift/releases/download/0.0.5/WhopPayments.xcframework.zip",
+            checksum: "d582a2705d8a880ffccdeb1542d940fedd156c86286861914cee0432c0e9c910"
         ),    ]
 )
