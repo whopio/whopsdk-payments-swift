@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.9] - 2025-12-02
+
+### Changed
+- initial loading state
+- improved UI for iOS 26
+
+### Fixed
+- cut off copy in change account sheet
+- initialize custom fonts
+- glitchy menu picker in withdrawal sheet
+
 ## [0.0.8] - 2025-12-01
 
 ### Fixed
@@ -54,6 +65,7 @@ _Release yanked due to github error_
 
 _Initial release._
 
+[0.0.9]: https://github.com/whopio/whopsdk-payments-swift/releases/tag/0.0.9
 [0.0.8]: https://github.com/whopio/whopsdk-payments-swift/releases/tag/0.0.8
 [0.0.7]: https://github.com/whopio/whopsdk-payments-swift/releases/tag/0.0.7
 [0.0.6]: https://github.com/whopio/whopsdk-payments-swift/releases/tag/0.0.6
