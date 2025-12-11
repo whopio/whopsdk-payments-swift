@@ -43,7 +43,7 @@ let package = Package(
         .binaryTarget(
             name: "SardineSDK",
             url: "https://github.com/whopio/whopsdk-payments-swift/releases/download/0.0.11/MobileIntelligence.xcframework.zip",
-            checksum: "3f1694622fe570f21eeccc36266f5dea6ecae0019e35fbb3ad3322574dd5ee4d"
+            checksum: "ae06dfe2524e8077ed8916a4e2930bfba3759eace28b21f2cfd1155f2cfc93d2"
         ),
     ]
 )
